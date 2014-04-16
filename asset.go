@@ -39,11 +39,11 @@ An example:
 Build your program, let's say the result is "mybinary".
 Now create a zip file, eg on unix:
 
-	zip -r0 mybinary.zip test.txt.
+	zip -r0 mybinary.zip test.txt
 
 Append it to the binary:
 
-	cat mybinary.zip >>mybinary.
+	cat mybinary.zip >>mybinary
 
 If you run mybinary, it will print the contents of file "test.txt"
 in the zip file that you appended to the binary.
