@@ -1,7 +1,7 @@
 package asset
 
 import (
-	"code.google.com/p/go.tools/godoc/vfs"
+	"golang.org/x/tools/godoc/vfs"
 	"fmt"
 	"os"
 )

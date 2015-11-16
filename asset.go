@@ -5,14 +5,14 @@ handle to the vfs.FileSystem that represents the appended zip file.
 It is on this vfs that you should call Open and friends, as opposed to
 the normal os.Open.
 
-See http://godoc.org/code.google.com/p/go.tools/godoc/vfs for vfs.FileSystem.
+See https://godoc.org/golang.org/x/tools/godoc/vfs for vfs.FileSystem.
 
 An example:
 
 	// mybinary.go
 
 	import (
-		"code.google.com/p/go.tools/godoc/vfs" // optional, for vfs.OS
+		"golang.org/x/tools/godoc/vfs" // optional, for vfs.OS
 		"bitbucket.org/mjl/asset"
 	)
 
@@ -68,8 +68,8 @@ package asset
 
 import (
 	"archive/zip"
-	"code.google.com/p/go.tools/godoc/vfs"
-	"code.google.com/p/go.tools/godoc/vfs/zipfs"
+	"golang.org/x/tools/godoc/vfs"
+	"golang.org/x/tools/godoc/vfs/zipfs"
 	"encoding/binary"
 	"errors"
 	"io"
