@@ -5,6 +5,8 @@ handle to the vfs.FileSystem that represents the appended zip file.
 It is on this vfs that you should call Open and friends, as opposed to
 the normal os.Open.
 
+NOTE: for serving files through http, use the newer https://godoc.org/bitbucket.org/mjl/httpasset.
+
 See https://godoc.org/golang.org/x/tools/godoc/vfs for vfs.FileSystem.
 
 An example:
